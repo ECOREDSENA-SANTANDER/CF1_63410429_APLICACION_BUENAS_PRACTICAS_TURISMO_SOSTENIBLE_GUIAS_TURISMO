@@ -32,8 +32,10 @@
   color: $color-primario
 figcaption
   font-weight: normal
+.barra-avance__boton--regresar span
+  color: white !important
  
- 
+
 .fa-lista
   li
     display: flex !important
@@ -99,13 +101,28 @@ figcaption
 .banner-principal .tarjeta
   @media (max-width: $bp-max-sm)
     background-image: url('../assets/curso/portada/fondo_principal_tablet.png') !important
+    background-size: cover
+    background-repeat: no-repeat
   @media (max-width: $bp-max-xs)
     background-image: url('../assets/curso/portada/fondo_principal_mob.png') !important
+    background-size: cover
+    background-repeat: no-repeat
 
 
 .bg1
   background-color: #FCEFE1
-
+.bg2
+  background-color: #F2F2DA
+.bg3
+  background-color: #EAEFE5
+.bg4
+  background-color: #F9DFC2
+.bg5
+  background-color:#595941
+.bgi-1
+  background-image: url('../assets/curso/temas/t2/bg.png')
+  background-size: cover
+  background-repeat: no-repeat
 .bg1.compl
   position: relative
   &::before
@@ -116,3 +133,104 @@ figcaption
     width: 20%
     height: 100%
     background-color: #FCEFE1
+.bg3.compl
+  position: relative
+  &::before
+    content: ''
+    position: absolute
+    top: 0
+    left: -20%
+    width: 20%
+    height: 100%
+    background-color: #EAEFE5
+.bg4.compl
+  position: relative
+  &::before
+    content: ''
+    position: absolute
+    top: 0
+    left: -20%
+    width: 20%
+    height: 100%
+    background-color: #F9DFC2
+  &.n-mob
+    @media (max-width: $bp-max-md)
+      &::before
+        display: none
+.w-90x
+  width: 90px
+
+.slyder-a
+  &__btn--sigt, &__btn--atrs
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
+    opacity: 1  
+  &__bullets__item
+    background-color: #FFF6C9
+    border-color: #FFF6C9
+    opacity: 1
+    &--active
+      background-color: $color-acento-botones
+      border-color: $color-acento-botones
+.slyder-f__btn i
+  color: $color-acento-botones
+.acordion
+  &__activo
+    background-color: #FFF6C9
+  &__accion__btn--b
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
+    color: $white
+.b-redo
+  border-top-right-radius: 500px
+  border-bottom-right-radius: 500px
+  .bloque-texto-g__texto
+    width: 65%
+    border-top-right-radius: 500px
+    border-bottom-right-radius: 500px
+    padding-right: 7% !important
+  @media (max-width: $bp-max-md)
+    border-radius: 0px
+    .bloque-texto-g__texto
+      width: 100%
+      border-radius: 0px
+      padding-right: 1.5rem !important
+.table1
+  thead 
+    background-color: $color-primario
+  tbody
+    tr:nth-child(odd)
+      background-color: #F6F6F6
+    tr td:first-child
+      font-weight: bold
+
+.subt
+  display: flex
+  align-items: center
+  gap: 10px
+  width: fit-content
+  background-color: #604629
+  padding: 5px 10px
+  border-radius: 500px
+  img
+    width: 26px
+  h3
+    color: $white
+.list-ico 
+  img 
+    width: 20px
+    min-width: 20px
+    margin-right: 7px
+.subt2
+  display: flex
+  align-items: end
+  gap: 10px
+  width: fit-content
+  background-image: url('../assets/curso/temas/t2/bg-subt.svg')
+  background-repeat: no-repeat
+  background-position: bottom
+  padding: 5px 10px
+  img
+    width: 55px
+
+
