@@ -13,117 +13,136 @@
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 En el ejercicio de la guianza turística, resulta fundamental incorporar criterios de sostenibilidad y calidad, ya que estos orientan la prestación de un servicio responsable, seguro y pertinente; en este sentido, permiten no solo mejorar la experiencia del visitante, sino también proteger el entorno natural y cultural, así como fortalecer el bienestar de las comunidades anfitrionas. Por tanto, el guía de turismo debe integrar estos criterios en la planificación, ejecución y evaluación de sus recorridos, promoviendo prácticas que garanticen el equilibrio entre la actividad turística y la conservación del territorio. #[br] #[br]
-        p.mb-0 A continuación, se presenta un cuadro comparativo que sintetiza los principales criterios de sostenibilidad y calidad aplicados al servicio de guianza turística.
+        p.mb-0 A continuación, se presenta un cuadro comparativo que sintetiza los principales criterios de sostenibilidad y calidad aplicados al servicio de guianza turística.             
 
-    .row.justify-content-center.mb-5
-      .col-lg-4.mb-2
-        AcordionA(tipo="b" clase-tarjeta="tarjeta bg-color-acento-contenido")
-          .row(titulo="Sostenibilidad ambiental")
-            ul.lista-ul.fa-lista.list-ico
-              li
-                img(src='@/assets/curso/temas/t2/ico-list.svg')
-                span.mb-0 Promover el respeto por la naturaleza (no dejar residuos, no alterar ecosistemas).
-              li
-                img(src='@/assets/curso/temas/t2/ico-list.svg')
-                span.mb-0 Fomentar prácticas como el ahorro de agua y energía durante las actividades.
-              li
-                img(src='@/assets/curso/temas/t2/ico-list.svg')
-                span.mb-0 Educar a los turistas sobre la biodiversidad local y su conservación.
-              li
-                img(src='@/assets/curso/temas/t2/ico-list.svg')
-                span.mb-0 Evitar el deterioro de áreas protegidas o sensibles.
-          .row(titulo="Sostenibilidad sociocultural")
-            ul.lista-ul.fa-lista.list-ico
-              li
-                img(src='@/assets/curso/temas/t2/ico-list.svg')
-                span.mb-0 Respetar las tradiciones, costumbres y patrimonio de las comunidades locales.
-              li
-                img(src='@/assets/curso/temas/t2/ico-list.svg')
-                span.mb-0 Evitar la apropiación cultural indebida o la descontextualización de prácticas culturales.
-              li
-                img(src='@/assets/curso/temas/t2/ico-list.svg')
-                span.mb-0 Promover el turismo responsable y consciente.
-              li
-                img(src='@/assets/curso/temas/t2/ico-list.svg')
-                span.mb-0 Facilitar interacciones respetuosas entre turistas y población local.
-          .row(titulo="Sostenibilidad económica")
-            ul.lista-ul.fa-lista.list-ico
-              li
-                img(src='@/assets/curso/temas/t2/ico-list.svg')
-                span.mb-0 Favorecer el consumo de productos y servicios locales.
-              li
-                img(src='@/assets/curso/temas/t2/ico-list.svg')
-                span.mb-0 Apoyar emprendimientos comunitarios.
-              li
-                img(src='@/assets/curso/temas/t2/ico-list.svg')
-                span.mb-0 Generar beneficios económicos equitativos para la comunidad.
-              li
-                img(src='@/assets/curso/temas/t2/ico-list.svg')
-                span.mb-0 Evitar prácticas de explotación o turismo masivo no controlado.
-      .col-lg-4.d-none.d-lg-block
-        img(src='@/assets/curso/temas/t2/2.png', alt='')      
-      .col-lg-4.mb-2
-        AcordionA(tipo="b" clase-tarjeta="tarjeta bg-color-acento-contenido")
-          .row(titulo="Competencia profesional del guía")
-            ul.lista-ul.fa-lista.list-ico.mb-0
-              li
-                img(src='@/assets/curso/temas/t2/ico-list.svg')
-                span.mb-0 Conocimiento profundo del destino (historia, cultura, geografía).
-              li
-                img(src='@/assets/curso/temas/t2/ico-list.svg')
-                span.mb-0 Capacitación constante y certificaciones.
-              li.mb-0
-                img(src='@/assets/curso/temas/t2/ico-list.svg')
-                span.mb-0 Manejo de idiomas cuando sea necesario.
-          .row(titulo="Comunicación efectiva")
-            ul.lista-ul.fa-lista.list-ico.mb-0
-              li
-                img(src='@/assets/curso/temas/t2/ico-list.svg')
-                span.mb-0 Claridad, empatía y capacidad de adaptación al grupo.
-              li
-                img(src='@/assets/curso/temas/t2/ico-list.svg')
-                span.mb-0 Uso de lenguaje adecuado según el público.
-              li.mb-0
-                img(src='@/assets/curso/temas/t2/ico-list.svg')
-                span.mb-0 Habilidad para interpretar y transmitir información de forma interesante.
-          .row(titulo="Seguridad del turista")
-            ul.lista-ul.fa-lista.list-ico.mb-0
-              li
-                img(src='@/assets/curso/temas/t2/ico-list.svg')
-                span.mb-0 Identificación y prevención de riesgos.
-              li
-                img(src='@/assets/curso/temas/t2/ico-list.svg')
-                span.mb-0 Conocimiento de primeros auxilios.
-              li.mb-0
-                img(src='@/assets/curso/temas/t2/ico-list.svg')
-                span.mb-0 Cumplimiento de normas y protocolos de seguridad.
-          .row(titulo="Organización y puntualidad")
-            ul.lista-ul.fa-lista.list-ico.mb-0
-              li
-                img(src='@/assets/curso/temas/t2/ico-list.svg')
-                span.mb-0 Cumplimiento de itinerarios.
-              li
-                img(src='@/assets/curso/temas/t2/ico-list.svg')
-                span.mb-0 Buena gestión del tiempo.
-              li.mb-0
-                img(src='@/assets/curso/temas/t2/ico-list.svg')
-                span.mb-0 Coordinación eficiente con otros servicios turísticos.
-          .row(titulo="Atención al cliente")
-            ul.lista-ul.fa-lista.list-ico.mb-0
-              li
-                img(src='@/assets/curso/temas/t2/ico-list.svg')
-                span.mb-0 Trato respetuoso y cordial.
-              li
-                img(src='@/assets/curso/temas/t2/ico-list.svg')
-                span.mb-0 Resolución de problemas.
-              li.mb-0
-                img(src='@/assets/curso/temas/t2/ico-list.svg')
-                span.mb-0 Personalización de la experiencia según intereses del grupo.
-      .col-12
-        figcaption Fuente: adaptado de la Organización Mundial del Turismo (2018).       
+    .mb-5(data-aos="fade")
+      .tabla-a.color-secundario.cuad-comp.mb-3
+        table
+          thead
+            tr
+              th.th1 Criterios de sostenibilidad en la guianza turística
+              th.th2 Criterios de calidad en la guianza turística
+          tbody
+            tr
+              td.brc1 
+                h5.mb-4.ct-color-acento-botones Sostenibilidad ambiental
+                ul.lista-ul.fa-lista.list-ico.mb-0
+                  li
+                    img(src='@/assets/curso/temas/t2/ico-list.svg')
+                    span.mb-0 Promover el respeto por la naturaleza (no dejar residuos, no alterar ecosistemas).
+                  li
+                    img(src='@/assets/curso/temas/t2/ico-list.svg')
+                    span.mb-0 Fomentar prácticas como el ahorro de agua y energía durante las actividades.
+                  li
+                    img(src='@/assets/curso/temas/t2/ico-list.svg')
+                    span.mb-0 Educar a los turistas sobre la biodiversidad local y su conservación.
+                  li.mb-0
+                    img(src='@/assets/curso/temas/t2/ico-list.svg')
+                    span.mb-0 Evitar el deterioro de áreas protegidas o sensibles.
+              td 
+                h5.mb-4.ct-color-acento-botones Competencia profesional del guía
+                ul.lista-ul.fa-lista.list-ico.mb-0
+                  li
+                    img(src='@/assets/curso/temas/t2/ico-list.svg')
+                    span.mb-0 Conocimiento profundo del destino (historia, cultura, geografía).
+                  li
+                    img(src='@/assets/curso/temas/t2/ico-list.svg')
+                    span.mb-0 Capacitación constante y certificaciones.
+                  li.mb-0
+                    img(src='@/assets/curso/temas/t2/ico-list.svg')
+                    span.mb-0 Manejo de idiomas cuando sea necesario.
+            tr
+              td.brc1
+                h5.mb-4.ct-color-acento-botones Sostenibilidad sociocultural
+                ul.lista-ul.fa-lista.list-ico.mb-0
+                  li
+                    img(src='@/assets/curso/temas/t2/ico-list.svg')
+                    span.mb-0 Respetar las tradiciones, costumbres y patrimonio de las comunidades locales.
+                  li
+                    img(src='@/assets/curso/temas/t2/ico-list.svg')
+                    span.mb-0 Evitar la apropiación cultural indebida o la descontextualización de prácticas culturales.
+                  li
+                    img(src='@/assets/curso/temas/t2/ico-list.svg')
+                    span.mb-0 Promover el turismo responsable y consciente.
+                  li.mb-0
+                    img(src='@/assets/curso/temas/t2/ico-list.svg')
+                    span.mb-0 Facilitar interacciones respetuosas entre turistas y población local.
+              td
+                h5.mb-4.ct-color-acento-botones Comunicación efectiva
+                ul.lista-ul.fa-lista.list-ico.mb-0
+                  li
+                    img(src='@/assets/curso/temas/t2/ico-list.svg')
+                    span.mb-0 Claridad, empatía y capacidad de adaptación al grupo.
+                  li
+                    img(src='@/assets/curso/temas/t2/ico-list.svg')
+                    span.mb-0 Uso de lenguaje adecuado según el público.
+                  li.mb-0
+                    img(src='@/assets/curso/temas/t2/ico-list.svg')
+                    span.mb-0 Habilidad para interpretar y transmitir información de forma interesante.
+            tr
+              td.brc1.nbc1(rowspan="3")
+                h5.mb-4.ct-color-acento-botones Sostenibilidad económica
+                ul.lista-ul.fa-lista.list-ico.mb-0
+                  li
+                    img(src='@/assets/curso/temas/t2/ico-list.svg')
+                    span.mb-0 Favorecer el consumo de productos y servicios locales.
+                  li
+                    img(src='@/assets/curso/temas/t2/ico-list.svg')
+                    span.mb-0 Apoyar emprendimientos comunitarios.
+                  li
+                    img(src='@/assets/curso/temas/t2/ico-list.svg')
+                    span.mb-0 Generar beneficios económicos equitativos para la comunidad.
+                  li.mb-0
+                    img(src='@/assets/curso/temas/t2/ico-list.svg')
+                    span.mb-0 Evitar prácticas de explotación o turismo masivo no controlado.
+              td
+                h5.mb-4.ct-color-acento-botones Seguridad del turista
+                ul.lista-ul.fa-lista.list-ico.mb-0
+                  li
+                    img(src='@/assets/curso/temas/t2/ico-list.svg')
+                    span.mb-0 Identificación y prevención de riesgos.
+                  li
+                    img(src='@/assets/curso/temas/t2/ico-list.svg')
+                    span.mb-0 Conocimiento de primeros auxilios.
+                  li.mb-0
+                    img(src='@/assets/curso/temas/t2/ico-list.svg')
+                    span.mb-0 Cumplimiento de normas y protocolos de seguridad.
+            tr
+              td
+                h5.mb-4.ct-color-acento-botones Organización y puntualidad
+                ul.lista-ul.fa-lista.list-ico.mb-0
+                  li
+                    img(src='@/assets/curso/temas/t2/ico-list.svg')
+                    span.mb-0 Cumplimiento de itinerarios.
+                  li
+                    img(src='@/assets/curso/temas/t2/ico-list.svg')
+                    span.mb-0 Buena gestión del tiempo.
+                  li.mb-0
+                    img(src='@/assets/curso/temas/t2/ico-list.svg')
+                    span.mb-0 Coordinación eficiente con otros servicios turísticos.  
+            tr
+              td.nbc1
+                h5.mb-4.ct-color-acento-botones Atención al cliente
+                ul.lista-ul.fa-lista.list-ico.mb-0
+                  li
+                    img(src='@/assets/curso/temas/t2/ico-list.svg')
+                    span.mb-0 Trato respetuoso y cordial.
+                  li
+                    img(src='@/assets/curso/temas/t2/ico-list.svg')
+                    span.mb-0 Resolución de problemas.
+                  li.mb-0
+                    img(src='@/assets/curso/temas/t2/ico-list.svg')
+                    span.mb-0 Personalización de la experiencia según intereses del grupo.
+      figcaption Fuente: adaptado de la Organización Mundial del Turismo (2018).       
 
-    p En el servicio de guianza turística resulta esencial aplicar criterios de sostenibilidad y calidad, ya que estos garantizan experiencias responsables, seguras y significativas tanto para los turistas como para las comunidades anfitrionas; en este marco, la sostenibilidad integra dimensiones ambientales, socioculturales y económicas, promoviendo el cuidado del entorno, el respeto por la identidad cultural y la distribución equitativa de los beneficios.
-    p Por su parte, la calidad en la guianza se manifiesta en la competencia profesional del guía, la comunicación efectiva, la gestión de la seguridad, la adecuada organización de las actividades y la atención al usuario; de este modo, se configura un servicio integral que no solo fortalece la experiencia turística, sino que también contribuye al desarrollo sostenible del destino.
+
+    .row.justify-content-center
+      .col-lg-4.col-md-6.col-9.mb-3.mb-lg-0(data-aos="fade-right")
+        img(src='@/assets/curso/temas/t2/2.png', alt='')
+      .col-lg-8(data-aos="fade-left")
+        .tarjeta.bg4.p-4.p-xl-5.h-100.d-flex.flex-column.justify-content-center        
+          p En el servicio de guianza turística resulta esencial aplicar criterios de sostenibilidad y calidad, ya que estos garantizan experiencias responsables, seguras y significativas tanto para los turistas como para las comunidades anfitrionas; en este marco, la sostenibilidad integra dimensiones ambientales, socioculturales y económicas, promoviendo el cuidado del entorno, el respeto por la identidad cultural y la distribución equitativa de los beneficios.
+          p.mb-0 Por su parte, la calidad en la guianza se manifiesta en la competencia profesional del guía, la comunicación efectiva, la gestión de la seguridad, la adecuada organización de las actividades y la atención al usuario; de este modo, se configura un servicio integral que no solo fortalece la experiencia turística, sino que también contribuye al desarrollo sostenible del destino.
 
 
     Separador
@@ -208,11 +227,11 @@
               li
                 img(src='@/assets/curso/temas/t2/ico-list.svg')
                 span.mb-0 Equipos requeridos para la prestación del servicio. 
-          .col-lg-5.col-11
-            p Diseñar el guion del recorrido conforme al programa turístico, a los lineamientos de los atractivos y a los criterios establecidos en la norma. 
+          .col-lg-5.col-10
             img(src='@/assets/curso/temas/t2/slider1-1.png', alt='')
         .row.justify-content-center.align-items-center
           .col-lg-5.col-11
+            p.mb-4 Adicionalmente, según el enfoque del recorrido, se recomienda integrar contenidos específicos:
             .subt.mb-4
               img(src='@/assets/curso/temas/t2/subt.svg', alt='')
               h3.mb-0.pe-3 Enfoque histórico
@@ -316,7 +335,7 @@
         .row.justify-content-center.mb-3
           .col-8.col-md-8.col-lg-6
             img(src='@/assets/curso/temas/t2/tarj1-1.svg' alt='')
-        h4 A.	Protección al consumidor
+        h4.text-center.mb-4 Protección al consumidor
         ul.lista-ul.fa-lista.l-circle
           li.mb-0
             i.fas.fa-circle
@@ -324,7 +343,7 @@
           li
             i.fas.fa-circle
             span.mb-0 Decreto 254 de 2022.
-        h5 Garantiza:
+        p.mb-2 Garantiza:
         ul.lista-ul.fa-lista.l-circle.mb-0
           li.mb-0
             i.fas.fa-circle
@@ -339,7 +358,7 @@
         .row.justify-content-center.mb-3
           .col-8.col-md-8.col-lg-6
             img(src='@/assets/curso/temas/t2/tarj1-2.svg' alt='')
-        h4 B. El guía como prestador de servicios 
+        h4.text-center.mb-4 El guía como prestador de servicios 
         ul.lista-ul.fa-lista.l-circle
           li.mb-0
             i.fas.fa-circle
@@ -347,7 +366,7 @@
           li
             i.fas.fa-circle
             span.mb-0 Ley 2068 de 2020. 
-        h5 El guía:
+        p.mb-2 El guía:
         ul.lista-ul.fa-lista.l-circle.mb-0
           li.mb-0
             i.fas.fa-circle
@@ -359,8 +378,8 @@
         .row.justify-content-center.mb-3
           .col-8.col-md-8.col-lg-6
             img(src='@/assets/curso/temas/t2/tarj1-3.svg' alt='')
-        h4 C.	Registro Nacional de Turismo (RNT)
-        h5 Obligatorio para:
+        h4.text-center.mb-4 Registro Nacional de Turismo (RNT)
+        p.mb-2 Obligatorio para:
         ul.lista-ul.fa-lista.l-circle.mb-0
           li.mb-0
             i.fas.fa-circle
@@ -372,8 +391,8 @@
         .row.justify-content-center.mb-3
           .col-8.col-md-8.col-lg-6
             img(src='@/assets/curso/temas/t2/tarj1-4.svg' alt='')
-        h4 D.	Derechos del turista
-        h5  El guía debe garantizar
+        h4.text-center.mb-4 Derechos del turista
+        p.mb-2 El guía debe garantizar
         ul.lista-ul.fa-lista.l-circle.mb-0
           li.mb-0
             i.fas.fa-circle
@@ -388,8 +407,8 @@
         .row.justify-content-center.mb-3
           .col-8.col-md-8.col-lg-6
             img(src='@/assets/curso/temas/t2/tarj1-5.svg' alt='')
-        h4 E.	Según el tipo de turismo
-        h5 Debe cumplir normas específicas en: 
+        h4.text-center.mb-4 Según el tipo de turismo
+        p.mb-2 Debe cumplir normas específicas en: 
         ul.lista-ul.fa-lista.l-circle.mb-0
           li.mb-0
             i.fas.fa-circle
@@ -417,14 +436,13 @@
               p De igual manera, este sistema promueve la adopción de medidas preventivas, el uso adecuado de elementos de protección personal, la capacitación en primeros auxilios y la generación de ambientes de trabajo seguros y saludables. El cumplimiento de estas disposiciones permite al guía de turismo desempeñar su labor de manera responsable, segura y conforme a los estándares legales, contribuyendo a la calidad del servicio y a la prevención de accidentes y enfermedades laborales.
           .row(titulo="Normativa para protección del patrimonio (natural y cultural)")
             .col-11
-              p En Colombia, la protección del patrimonio natural y cultural está sustentada en un marco normativo integral que inicia con la Constitución Política de 1991, la cual establece el deber de proteger las riquezas culturales y naturales de la Nación. Este principio se desarrolla mediante la Ley 397 de 1997 y su modificación, la Ley 1185 de 2008, que regulan la conservación, protección y uso sostenible del patrimonio cultural. Asimismo, la Ley 163 de 1959 protege el patrimonio histórico y arqueológico, mientras que la Ley 45 de 1983 incorpora lineamientos internacionales para su conservación. En cuanto al patrimonio natural, la Ley 99 de 1993 crea el Sistema Nacional Ambiental (SINA) y establece principios para la protección del medio ambiente y el uso sostenible de los recursos naturales; de igual forma, la política pública como la Política de Turismo Sostenible orienta el desarrollo del turismo bajo criterios de sostenibilidad ambiental, sociocultural y económica. Este conjunto normativo es fundamental para el ejercicio de la guianza turística, ya que permite al guía actuar como un agente responsable en la conservación, interpretación y promoción del patrimonio, fomentando prácticas sostenibles y el respeto por la identidad cultural y la biodiversidad del país.
+              p En Colombia, la protección del patrimonio natural y cultural está sustentada en un marco normativo integral que inicia con la #[b Constitución Política de 1991], la cual establece el deber de proteger las riquezas culturales y naturales de la Nación. Este principio se desarrolla mediante la Ley 397 de 1997 y su modificación, la Ley 1185 de 2008, que regulan la conservación, protección y uso sostenible del patrimonio cultural. Asimismo, la Ley 163 de 1959 protege el patrimonio histórico y arqueológico, mientras que la Ley 45 de 1983 incorpora lineamientos internacionales para su conservación. En cuanto al patrimonio natural, la Ley 99 de 1993 crea el Sistema Nacional Ambiental (SINA) y establece principios para la protección del medio ambiente y el uso sostenible de los recursos naturales; de igual forma, la política pública como la Política de Turismo Sostenible orienta el desarrollo del turismo bajo criterios de sostenibilidad ambiental, sociocultural y económica. Este conjunto normativo es fundamental para el ejercicio de la guianza turística, ya que permite al guía actuar como un agente responsable en la conservación, interpretación y promoción del patrimonio, fomentando prácticas sostenibles y el respeto por la identidad cultural y la biodiversidad del país.
       .col-lg-4.d-none.d-lg-block(data-aos="fade-left")
         img(src='@/assets/curso/temas/t2/8.png', alt='')
 
-    .row.justify-content-center(data-aos="fade")
-      .col-lg-11
-        figure
-          img(src='@/assets/curso/temas/t2/infog.svg', alt='')
+    .bg2.p-4.p-lg-5(data-aos="fade")
+      figure
+        img(src='@/assets/curso/temas/t2/infog.svg', alt='')
 
   
     Separador
@@ -604,10 +622,9 @@
 
     p Por su parte, la gestión ambiental en el turismo es un compromiso fundamental para garantizar el uso responsable de los recursos naturales y la conservación de los ecosistemas. En este sentido, el Sello Ambiental Colombiano (SAC) se convierte en una herramienta clave que orienta a las organizaciones hacia la implementación de buenas prácticas sostenibles. A continuación, se presenta una infografía que resume sus principales componentes y beneficios, destacando su importancia para fortalecer la competitividad, mejorar la imagen empresarial y promover un turismo responsable.
 
-    .row.justify-content-center(data-aos="fade")
-      .col-lg-11
-        figure
-          img(src='@/assets/curso/temas/t2/infog2.svg', alt='')
+    .bg2.p-4.p-lg-5
+      figure
+        img(src='@/assets/curso/temas/t2/infog2.svg', alt='')
 
 
 </template>

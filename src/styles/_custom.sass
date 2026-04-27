@@ -30,8 +30,8 @@
   color: white !important   
 .banner-interno__titulo__icono i
   color: $color-primario
-figcaption
-  font-weight: normal
+figcaption, caption
+  font-weight: normal !important
 .barra-avance__boton--regresar span
   color: white !important
  
@@ -72,14 +72,16 @@ figcaption
   background-color: $color-adicional-1
 .ct-color-primario
   color: $color-primario
+.ct-color-acento-botones
+  color: $color-acento-botones
+.ct-secundario 
+  color: $color-secundario !important
+.ct-acento-contenido 
+  color: $color-acento-contenido !important
 .w-fit
   width: fit-content
 .columns-2
   columns: 2
-.tc-sec 
-  color: $color-secundario !important
-.tc-ac 
-  color: $color-acento-contenido !important
 .font-italic
   font-style: italic !important
 .sin-borde
@@ -118,9 +120,29 @@ figcaption
 .bg4
   background-color: #F9DFC2
 .bg5
-  background-color:#595941
+  background-color: #595941
+.bg6
+  background-color: #FFF6C9
+.bg7
+  background-color: #F9F7F0
+.bg8
+  background-color: #FCFCF6
+.bg9
+  background-color: #FFFBE4
+.bg10
+  background-color:  #DFDFA4
+.bg11
+  background-color:  #CBC9C0
 .bgi-1
   background-image: url('../assets/curso/temas/t2/bg.png')
+  background-size: cover
+  background-repeat: no-repeat
+.bgi-2
+  background-image: url('../assets/curso/temas/t1/bg.png')
+  background-size: cover
+  background-repeat: no-repeat
+.bgi-3
+  background-image: url('../assets/curso/temas/t1/bg2.png')
   background-size: cover
   background-repeat: no-repeat
 .bg1.compl
@@ -157,8 +179,32 @@ figcaption
     @media (max-width: $bp-max-md)
       &::before
         display: none
+.bgcolor-1
+  background: #DFDFA4
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover 
+.bgcolor-2
+  background: #366400
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover 
 .w-90x
   width: 90px
+.w-60x
+  width: 60px
 
 .slyder-a
   &__btn--sigt, &__btn--atrs
@@ -203,6 +249,20 @@ figcaption
       background-color: #F6F6F6
     tr td:first-child
       font-weight: bold
+.table2
+  thead 
+    background-color: $color-primario
+  tbody
+    tr:nth-child(odd)
+      background-color: #F6F6F6
+    th 
+      font-weight: normal
+.t1-3
+  .slyder__btn
+    background-color: $color-acento-botones
+    i
+      color: $white
+
 
 .subt
   display: flex
@@ -232,5 +292,75 @@ figcaption
   padding: 5px 10px
   img
     width: 55px
+.cuad-comp
+  background-color: #FFF6C9
+  border-radius: 20px
+  caption
+    border-radius: 0px
+  thead
+    border-top: 50px solid
+    tr
+      position: relative
+      height: 52px
+      th
+        background-color: #604629
+        color: $white
+        border-radius: 30px
+        border-color: #604629
+        margin-top: -20px !important
+        position: absolute
+        width: 50%
+        &.th1
+          left: 0
+        &.th2
+          right: 0
+  tbody
+    tr
+      td
+        vertical-align: top
+        padding: 2em
+        border-bottom: 1px solid #707070
+        &.brc1
+          border-right: 5px solid #F0B068
+          border-radius: 30px
+        &.nbc1
+          border-bottom: 0px
+        @media (max-width: $bp-max-md)
+          padding: 3em 2em
 
 
+.cursor-pointer.crd_hover_txt
+  cursor: pointer
+.title 
+  background-color: $color-acento-botones
+  .icon
+    background-color: $color-acento-contenido
+    height: 40px
+    width: 40px
+    border-radius: 100px
+    display: flex
+    justify-content: center
+    align-items: center
+    @media (max-width: $bp-max-xs)
+      height: 30px
+      width: 30px
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+  .crd_hover_txt--body
+    position: absolute
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: #DFDFA4
+  @media (max-width: $bp-max-xs)
+    min-height: 320px
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
