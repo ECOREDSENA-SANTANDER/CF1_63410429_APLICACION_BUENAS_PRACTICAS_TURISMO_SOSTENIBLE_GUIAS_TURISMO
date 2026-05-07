@@ -316,8 +316,8 @@
       .col-lg-12
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Video. 
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/lMnfs2yjZrQ?si=2VW_87D9h5kEoWG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video. Transformación digital en la guianza turística 
 
 
     Separador
@@ -700,7 +700,7 @@
             .bg-white.tarjeta.p-4
               TarjetaAudio.color-acento-botones(
                 texto="Pódcast: Revisemos la Ley 2068 de 2020: claves del turismo en Colombia"
-                :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                :audio="require('@/assets/componentes/audios/podcast.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")

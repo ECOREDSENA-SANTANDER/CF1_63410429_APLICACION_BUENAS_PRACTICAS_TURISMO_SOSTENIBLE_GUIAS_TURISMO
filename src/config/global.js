@@ -244,115 +244,138 @@ export default {
   referencias: [
     {
       referencia:
-        'Asamblea Nacional Constituyente. (1991). Constitucion Politica de Colombia. Gaceta Constitucional No. 116.',
-      link:
-        'http://www.secretariasenado.gov.co/index.php/constitucion-politica',
+        'Asamblea Nacional Constituyente. (1991). Constitución Política de Colombia. Gaceta Constitucional No. 116.',
+      link: '',
     },
     {
       referencia:
-        'Autoridad Nacional de Licencias Ambientales (ANLA). (2020). Sello Ambiental Colombiano: La autorizacion que otorga la ANLA a los diferentes organos certificadores para el uso del SAC en productos y/o servicios.',
-      link:
-        'https://www.anla.gov.co/noticias-anla/sello-ambiental-colombiano-la-autorizacion-que-otorga-la-anla-a-los-diferentes-organos-certificadores-para-el-uso-del-sac-en-productos-y-o-servicios',
+        'Autoridad Nacional de Licencias Ambientales (ANLA). (2020). Sello Ambiental Colombiano: La autorización que otorga la ANLA a los diferentes órganos certificadores para el uso del SAC en productos y/o servicios.',
+      link: '',
     },
     {
       referencia:
         'Decreto 1293 de 2014. Por el cual se modifica el Decreto 503 de 1997 y se dictan otras disposiciones. 10 de julio de 2014. D.O. No. 49208.',
+      link: '',
     },
     {
       referencia:
-        'Decreto 1074 de 2015. Por medio del cual se expide el Decreto unico Reglamentario del Sector Comercio, Industria y Turismo. 26 de mayo de 2015. D.O. No. 49523.',
+        'Decreto 1074 de 2015. Por medio del cual se expide el Decreto único Reglamentario del Sector Comercio, Industria y Turismo. 26 de mayo de 2015. D.O. No. 49523.',
+      link: '',
     },
     {
       referencia:
-        'Decreto 1076 de 2015. Por medio del cual se expide el Decreto unico Reglamentario del Sector Comercio, Industria y Turismo. 26 de mayo de 2015. D.O. No. 49523.',
+        'Decreto 1076 de 2015. Por medio del cual se expide el Decreto único Reglamentario del Sector Comercio, Industria y Turismo. 26 de mayo de 2015. D.O. No. 49523.',
+      link: '',
     },
     {
       referencia:
-        'Decreto 254 de 2022. Por el cual se reglamenta el Articulo 24 de la Ley 2068 de 2020, se sustituye la Seccion 9 del Capitulo 4 y se adiciona el Capitulo 13 al Titulo 4 de la Parte 2 del Libro 2 del Decreto Unico Reglamentario del Sector Comercio, Industria y Turismo. 23 de febrero de 2022.',
+        'Decreto 254 de 2022. Por el cual se reglamenta el Artículo 24 de la Ley 2068 de 2020, se sustituye la Sección 9 del Capítulo 4 y se adiciona el Capítulo 13 al Título 4 de la Parte 2 del Libro 2 del Decreto Único Reglamentario del Sector Comercio, Industria y Turismo. 23 de febrero de 2022.',
+      link: '',
     },
     {
       referencia:
         'Epler Wood, M., Milstein, M., & Ahamed-Broadhurst, K. (2019). Destinations at risk: The invisible burden of tourism. Travel Foundation.',
+      link: '',
     },
     {
       referencia:
-        'Federacion Colombiana de Eco-parques, Ecoturismo y Turismo de Aventura (FEDEC). (2026). Turismo de aventura: Actividades en aire, tierra y agua. Napkin.ai.',
+        'Federación Colombiana de Eco-parques, Ecoturismo y Turismo de Aventura (FEDEC). (2026). Turismo de aventura: Actividades en aire, tierra y agua. Napkin.ai.',
+      link: '',
     },
     {
       referencia:
-        'Instituto Colombiano de Normas Tecnicas y Certificacion (ICONTEC). (2021). Requisitos para la prestacion del servicio de guionaje (guianza) turistico (NTC 6507).',
+        'Instituto Colombiano de Normas Técnicas y Certificación (ICONTEC). (2021). Requisitos para la prestación del servicio de guionaje (guianza) turístico (NTC 6507).',
+      link: '',
     },
     {
       referencia:
-        'Ley 163 de 1959. Por la cual se dictan disposiciones sobre la defensa y conservacion del patrimonio historico, artistico y monumentos publicos de la Nacion. 30 de diciembre de 1959. D.O. No. 30139.',
+        'Ley 163 de 1959. Por la cual se dictan disposiciones sobre la defensa y conservación del patrimonio histórico, artístico y monumentos públicos de la Nación. 30 de diciembre de 1959. D.O. No. 30139.',
+      link: '',
     },
     {
       referencia:
-        'Ley 45 de 1983. Por medio de la cual se aprueba la "Convencion para la Proteccion del Patrimonio Mundial Cultural y Natural", hecha en Paris el 23 de noviembre de 1972 y se autoriza al Gobierno Nacional para adherir al mismo. 15 de diciembre de 1983. D.O. No. 36415.',
+        'Ley 45 de 1983. Por medio de la cual se aprueba la "Convención para la Protección del Patrimonio Mundial Cultural y Natural", hecha en París el 23 de noviembre de 1972 y se autoriza al Gobierno Nacional para adherir al mismo. 15 de diciembre de 1983. D.O. No. 36415.',
+      link: '',
     },
     {
       referencia:
-        'Ley 99 de 1993. Por la cual se crea el Ministerio del Medio Ambiente, se reordena el sector publico encargado de la gestion y conservacion del medio ambiente y los recursos naturales renovables, se organiza el Sistema Nacional Ambiental, SINA, y se dictan otras disposiciones. 22 de diciembre de 1993. D.O. No. 41146.',
+        'Ley 99 de 1993. Por la cual se crea el Ministerio del Medio Ambiente, se reordena el sector público encargado de la gestión y conservación del medio ambiente y los recursos naturales renovables, se organiza el Sistema Nacional Ambiental, SINA, y se dictan otras disposiciones. 22 de diciembre de 1993. D.O. No. 41146.',
+      link: '',
     },
     {
       referencia:
         'Ley 300 de 1996. Por la cual se expide la Ley General de Turismo y se dictan otras disposiciones. 26 de julio de 1996. D.O. No. 42.845.',
+      link: '',
     },
     {
       referencia:
-        'Ley 397 de 1997. Por la cual se desarrollan los Articulos 70, 71 y 72 y demas Articulos concordantes de la Constitucion Politica y se dictan normas sobre patrimonio cultural, fomentos y estimulos a la cultura, se crea el Ministerio de la Cultura y se trasladan algunas dependencias. 7 de agosto de 1997. D.O. No. 43102.',
+        'Ley 397 de 1997. Por la cual se desarrollan los Artículos 70, 71 y 72 y demás Artículos concordantes de la Constitución Política y se dictan normas sobre patrimonio cultural, fomentos y estímulos a la cultura, se crea el Ministerio de la Cultura y se trasladan algunas dependencias. 7 de agosto de 1997. D.O. No. 43102.',
+      link: '',
     },
     {
       referencia:
         'Ley 1101 de 2006. Por la cual se modifica la Ley 300 de 1996 - Ley General de Turismo y se dictan otras disposiciones. 22 de noviembre de 2006. D.O. No. 46461.',
+      link: '',
     },
     {
       referencia:
-        'Ley 1185 de 2008. Por la cual se modifica y adiciona la Ley 397 de 1997 - Ley General de Cultura, y se dictan otras disposiciones. 12 de marzo de 2008. D. O. No. 46929.',
+        'Ley 1185 de 2008. Por la cual se modifica y adiciona la Ley 397 de 1997 - Ley General de Cultura, y se dictan otras disposiciones. 12 de marzo de 2008. D.O. No. 46929.',
+      link: '',
     },
     {
       referencia:
         'Ley 1333 de 2009. Por la cual se establece el procedimiento sancionatorio ambiental y se dictan otras disposiciones. 21 de julio de 2009. D.O. No. 47.417.',
+      link: '',
     },
     {
       referencia:
-        'Ley 1480 de 2011. Por medio de la cual se expide el Estatuto del Consumidor y se dictan otras disposiciones.12 de octubre de 2011. D.O. No. 48220.',
+        'Ley 1480 de 2011. Por medio de la cual se expide el Estatuto del Consumidor y se dictan otras disposiciones. 12 de octubre de 2011. D.O. No. 48220.',
+      link: '',
     },
     {
       referencia:
-        'Ley 1558 de 2012. Por la cual se modifica la Ley 300 de 1996 -- Ley General de Turismo, la Ley 1101 de 2006 y se dictan otras disposiciones. 10 de julio de 2012. D.O. No. 48487.',
+        'Ley 1558 de 2012. Por la cual se modifica la Ley 300 de 1996 – Ley General de Turismo, la Ley 1101 de 2006 y se dictan otras disposiciones. 10 de julio de 2012. D.O. No. 48487.',
+      link: '',
     },
     {
       referencia:
         'Ley 2068 de 2020. Por la cual se modifica la Ley General de Turismo y se dictan otras disposiciones. 31 de diciembre de 2020. D.O. No. 51.544.',
+      link: '',
     },
     {
       referencia:
-        'Ministerio de Comercio, Industria y Turismo. (2012). Politica de turismo sostenible en Colombia.',
+        'Ministerio de Comercio, Industria y Turismo. (2012). Política de turismo sostenible en Colombia.',
+      link: '',
     },
     {
       referencia:
-        'Ministerio de Comercio, Industria y Turismo. (2022). Normas Tecnicas Sectoriales de Turismo (NTS).',
+        'Ministerio de Comercio, Industria y Turismo. (2022). Normas Técnicas Sectoriales de Turismo (NTS).',
+      link: '',
     },
     {
       referencia:
-        'Programa de las Naciones Unidas para el Medio Ambiente (PNUMA) & Organizacion Mundial del Turismo (OMT). (2007). Making tourism more sustainable: A guide for policy makers.',
+        'Programa de las Naciones Unidas para el Medio Ambiente (PNUMA) & Organización Mundial del Turismo (OMT). (2007). Making tourism more sustainable: A guide for policy makers.',
+      link: '',
     },
     {
       referencia:
-        'Sistema Turistico. (s.f.). El sistema turistico segun Roberto Boullon.',
+        'Sistema Turístico. (s. f.). El sistema turístico según Roberto Boullon.',
+      link: '',
     },
     {
       referencia:
         'United Nations Environment Programme (UNEP) & World Tourism Organization (UNWTO). (2012). Tourism in the green economy.',
+      link: '',
     },
     {
       referencia:
-        'Universitat Oberta de Catalunya (UOC). (s. f.). Planificacion de la gestion de los riesgos.',
+        'Universitat Oberta de Catalunya (UOC). (s. f.). Planificación de la gestión de los riesgos.',
+      link: '',
     },
     {
       referencia:
         'World Tourism Organization (UNWTO), International Trade Centre (ITC) & Enhanced Integrated Framework (EIF). (2017). Tourism for sustainable development.',
+      link: '',
     },
   ],
   creditos: [
@@ -362,7 +385,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Responsable del ecosistema',
-          centro: 'Dirección General',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Edison Eduardo Mantilla Cuadros',
@@ -384,11 +407,6 @@ export default {
           cargo: 'Evaluadora instruccional',
           centro: 'Centro Agroturístico - Regional Santander',
         },
-        {
-          nombre: 'Erika Daniela Manrique Rueda',
-          cargo: 'Validadora y vinculadora de recursos educativos digitales',
-          centro: 'Centro Agroturístico - Regional Santander',
-        },
       ],
     },
     {
@@ -405,7 +423,7 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
+          nombre: 'Maria Alejandra Vera Briceño',
           cargo: 'Animadora y productora audiovisual',
           centro: 'Centro Agroturístico - Regional Santander',
         },
@@ -415,7 +433,7 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: ' ',
+          nombre: 'Erika Daniela Manrique Rueda',
           cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
