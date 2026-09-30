@@ -142,7 +142,7 @@
         h4.text-center Turismo por la naturaleza
         p.mb-0 Es aquel que tiene como motivación principal la contemplación, disfrute y conocimiento del medio natural, con diferente grado de profundidad, para lo que puede realizar actividades físicas de baja intensidad sin degradar los recursos naturales (I.E. Ecoturismo).
 
-    .bg7.tarjeta.p-4.mb-4(data-aos='fade')
+    .bg7.tarjeta.p-4.mb-5(data-aos='fade')
       .titulo-sexto.color-acento-contenido
         h5 Figura 2.
         span Tipologías de turismo de naturaleza
@@ -165,9 +165,9 @@
                 img(src='@/assets/curso/temas/t1/9.svg', alt='')
     
     .row.justify-content-center.mb-5
-      .col-lg-3.d-none.d-lg-block
+      .col-lg-3.col-xl-3.d-none.d-xl-block
         img(src='@/assets/curso/temas/t1/10.png', alt='')
-      .col-lg-5.mb-3.mb-lg-0
+      .col-lg-8.col-xl-5.mb-3.mb-lg-0
         .bg4.tarjeta.p-4.h-100
           p Este tipo de turismo comprende prácticas como:
           .row.justify-content-center
@@ -175,49 +175,49 @@
               ul.lista-ul.fa-lista.list-ico.mb-0
                 li
                   img(src='@/assets/curso/temas/t2/ico-list.svg')
-                  span.mb-0 Parapente
+                  span.mb-0 Parapente.
                 li
                   img(src='@/assets/curso/temas/t2/ico-list.svg')
-                  span.mb-0 #[em Rappel]
+                  span.mb-0 #[em Rappel].
                 li
                   img(src='@/assets/curso/temas/t2/ico-list.svg')
-                  span.mb-0 Escalada
+                  span.mb-0 Escalada.
                 li
                   img(src='@/assets/curso/temas/t2/ico-list.svg')
-                  span.mb-0 #[em Rafting]
+                  span.mb-0 #[em Rafting].
                 li
                   img(src='@/assets/curso/temas/t2/ico-list.svg')
-                  span.mb-0 Canotaje
+                  span.mb-0 Canotaje.
                 li
                   img(src='@/assets/curso/temas/t2/ico-list.svg')
-                  span.mb-0 Barranquismo (#[em canyoning])
+                  span.mb-0 Barranquismo (#[em canyoning]).
                 li
                   img(src='@/assets/curso/temas/t2/ico-list.svg')
-                  span.mb-0 Ciclomontañismo
+                  span.mb-0 Ciclomontañismo.
             .col-md-6
               ul.lista-ul.fa-lista.list-ico.mb-0
                 li
                   img(src='@/assets/curso/temas/t2/ico-list.svg')
-                  span.mb-0 Cabalgatas
+                  span.mb-0 Cabalgatas.
                 li
                   img(src='@/assets/curso/temas/t2/ico-list.svg')
-                  span.mb-0 #[em Puenting]
+                  span.mb-0 #[em Puenting].
                 li
                   img(src='@/assets/curso/temas/t2/ico-list.svg')
-                  span.mb-0 Espeleología
+                  span.mb-0 Espeleología.
                 li
                   img(src='@/assets/curso/temas/t2/ico-list.svg')
-                  span.mb-0 Buceo
+                  span.mb-0 Buceo.
                 li
                   img(src='@/assets/curso/temas/t2/ico-list.svg')
-                  span.mb-0 Kayak
+                  span.mb-0 Kayak.
                 li
                   img(src='@/assets/curso/temas/t2/ico-list.svg')
-                  span.mb-0 #[em Hydrospeed]
+                  span.mb-0 #[em Hydrospeed].
                 li
                   img(src='@/assets/curso/temas/t2/ico-list.svg')
-                  span.mb-0 Pesca deportiva
-      .col-lg-3
+                  span.mb-0 Pesca deportiva.
+      .col-lg-4.col-xl-3
         .bg10.tarjeta.p-4.h-100
           p.mb-0 A continuación, se presenta una síntesis de los principales elementos del turismo de aventura, incluyendo su definición, las actividades más representativas y el rol del guía; esta información permite comprender de manera general las características de esta tipología turística y su importancia en el desarrollo de experiencias seguras y en contacto con la naturaleza.
 
@@ -300,17 +300,12 @@
                 h5.ps-2.ps-md-0.mb-0.text-white En el turismo de reuniones, incentivos, congresos y exposiciones (MICE)
             p.mb-0.p-3.p-md-4 El guía participa activamente en la logística y desarrollo de eventos. En la práctica, debe coordinar tiempos, orientar a los participantes, apoyar en la organización de actividades programadas y resolver imprevistos de manera eficiente. Además, debe mantener una comunicación constante con los organizadores y garantizar que la experiencia del grupo se desarrolle de acuerdo con lo planeado.
 
-    .bgi-2.tarjeta.p-4.mb-4(data-aos="fade")
+    .bgi-2.tarjeta.p-4.mb-5(data-aos="fade")
       .row.justify-content-evenly.align-items-center
         .col-lg-3.col-md-6.col-9.mb-3.mb-lg-0
           img(src='@/assets/curso/temas/t1/12.svg', alt='')
         .col-lg-6
           p A continuación, se presenta un video que aborda la transformación digital en la guianza turística, destacando el uso de herramientas tecnológicas para mejorar la experiencia del visitante y fortalecer el rol del guía en contextos actuales. Este recurso permite comprender cómo la innovación digital se integra a las prácticas de sostenibilidad y calidad en el turismo:
-
-    ul.lista-ul.fa-lista.list-ico
-      li
-        img(src='@/assets/curso/temas/t2/ico-list.svg')
-        span.mb-0 Transformación digital en la guianza turística
 
     .row.justify-content-center.align-items-center           
       .col-lg-12

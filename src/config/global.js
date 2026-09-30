@@ -133,7 +133,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/63410429_CF01_CFA.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -334,7 +334,7 @@ export default {
     },
     {
       referencia:
-        'Ley 1558 de 2012. Por la cual se modifica la Ley 300 de 1996 – Ley General de Turismo, la Ley 1101 de 2006 y se dictan otras disposiciones. 10 de julio de 2012. D.O. No. 48487.',
+        'Ley 1558 de 2012. Por la cual se modifica la Ley 300 de 1996 - Ley General de Turismo, la Ley 1101 de 2006 y se dictan otras disposiciones. 10 de julio de 2012. D.O. No. 48487.',
       link: '',
     },
     {
@@ -384,7 +384,8 @@ export default {
       autores: [
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Responsable del ecosistema',
+          cargo:
+            'Profesional 06. Responsable del Ecosistema de Recursos Educativos Digitales (RED)',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -438,7 +439,7 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
+          nombre: 'Sandra Liliana Cristancho Cruz',
           cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },

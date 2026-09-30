@@ -166,9 +166,9 @@
       SlyderA(tipo="b")
         .row.justify-content-center
           .col-lg-11.col-11
-            .subt.mb-4
-              img(src='@/assets/curso/temas/t2/subt.svg', alt='')
-              h3.mb-0.pe-3 Planificación y comercialización del servicio de guianza
+            .subt2.mb-4(data-aos="fade-right")
+              img(src='@/assets/curso/temas/t2/subt2.svg', alt='')
+              h3.mb-2.pe-3.pe-lg-5 Planificación y comercialización del servicio de guianza
           .col-lg-5.col-11
             p En Colombia, la planificación del servicio de guianza turística está regulada por la Norma Técnica Colombiana NTC 6507:2021. En su numeral 5 se establecen los requisitos que deben cumplirse para garantizar una adecuada prestación del servicio, entre los cuales se destacan:
             ul.lista-ul.fa-lista.list-ico
@@ -197,9 +197,9 @@
                 span.mb-0 Articular acciones con otros prestadores de servicios involucrados en el plan de acción. 
         .row.justify-content-center
           .col-lg-11.col-11
-            .subt.mb-4
-              img(src='@/assets/curso/temas/t2/subt.svg', alt='')
-              h3.mb-0.pe-3 Estructura del guion de guianza turística
+            .subt2.mb-4(data-aos="fade-right")
+              img(src='@/assets/curso/temas/t2/subt2.svg', alt='')
+              h3.mb-2.pe-3.pe-lg-5 Estructura del guion de guianza turística
           .col-lg-5.col-11
             p Al momento de elaborar el guion del recorrido, se deben considerar los siguientes elementos mínimos:
             ul.lista-ul.fa-lista.list-ico
@@ -232,9 +232,9 @@
         .row.justify-content-center.align-items-center
           .col-lg-5.col-11
             p.mb-4 Adicionalmente, según el enfoque del recorrido, se recomienda integrar contenidos específicos:
-            .subt.mb-4
-              img(src='@/assets/curso/temas/t2/subt.svg', alt='')
-              h3.mb-0.pe-3 Enfoque histórico
+            .subt2.mb-4(data-aos="fade-right")
+              img(src='@/assets/curso/temas/t2/subt2.svg', alt='')
+              h3.mb-2.pe-3.pe-lg-5 Enfoque histórico
             ul.lista-ul.fa-lista.list-ico.ps-lg-5
               li
                 img(src='@/assets/curso/temas/t2/ico-list.svg')
@@ -252,9 +252,9 @@
             img(src='@/assets/curso/temas/t2/slider1-2.png', alt='')
         .row.justify-content-center.align-items-center
           .col-lg-5.col-11
-            .subt.mb-4
-              img(src='@/assets/curso/temas/t2/subt.svg', alt='')
-              h3.mb-0.pe-3 Enfoque de medio natural
+            .subt2.mb-4(data-aos="fade-right")
+              img(src='@/assets/curso/temas/t2/subt2.svg', alt='')
+              h3.mb-2.pe-3.pe-lg-5 Enfoque de medio natural
             ul.lista-ul.fa-lista.list-ico.ps-lg-5
               li
                 img(src='@/assets/curso/temas/t2/ico-list.svg')
@@ -278,9 +278,9 @@
             img(src='@/assets/curso/temas/t2/slider1-3.png', alt='')  
         .row.justify-content-center.align-items-center
           .col-lg-5.col-11
-            .subt.mb-4
-              img(src='@/assets/curso/temas/t2/subt.svg', alt='')
-              h3.mb-0.pe-3 Enfoque cultural
+            .subt2.mb-4(data-aos="fade-right")
+              img(src='@/assets/curso/temas/t2/subt2.svg', alt='')
+              h3.mb-2.pe-3.pe-lg-5 Enfoque cultural
             ul.lista-ul.fa-lista.list-ico.ps-lg-5
               li
                 img(src='@/assets/curso/temas/t2/ico-list.svg')
@@ -295,9 +295,9 @@
             img(src='@/assets/curso/temas/t2/slider1-4.png', alt='')   
         .row.justify-content-center.align-items-center
           .col-lg-5.col-11
-            .subt.mb-4
-              img(src='@/assets/curso/temas/t2/subt.svg', alt='')
-              h3.mb-0.pe-3 Enfoque gastronómico
+            .subt2.mb-4(data-aos="fade-right")
+              img(src='@/assets/curso/temas/t2/subt2.svg', alt='')
+              h3.mb-2.pe-3.pe-lg-5 Enfoque gastronómico
             ul.lista-ul.fa-lista.list-ico.ps-lg-5
               li
                 img(src='@/assets/curso/temas/t2/ico-list.svg')
@@ -440,9 +440,29 @@
       .col-lg-4.d-none.d-lg-block(data-aos="fade-left")
         img(src='@/assets/curso/temas/t2/8.png', alt='')
 
-    .bg2.p-4.p-lg-5(data-aos="fade")
-      figure
-        img(src='@/assets/curso/temas/t2/infog.svg', alt='')
+    ImagenInfografica.color-secundario.mb-5
+      template(v-slot:imagen)
+        figure
+          img(src='@/assets/curso/temas/t2/infog3.svg', alt='')
+      .tarjeta.bg11.p-3.px-4(x="16.5%" y="25%" numero="1")
+        h4.mb-2 Cuidado personal
+        p Procurar el cuidado integral de la salud. 
+        h5.mb-2 Capacitación
+        p.mb-0 Participar en las capacitaciones programadas en SG-SST. 
+      .tarjeta.bg11.p-3.px-4(x="83.5%" y="25%" numero="2")
+        h4.mb-2 Información
+        p Suministrar información veraz sobre su estado de salud.  
+        h5.mb-2 Capacitación
+        p.mb-0 Participar en las capacitaciones programadas en SG-SST.
+      .tarjeta.bg11.p-3.px-4(x="7.5%" y="71%" numero="3")
+        h4.mb-2 Cumplimiento de normas
+        p Cumplir con las normas, procedimientos e instrucciones del SG-SST.
+        h5.mb-2 Participación
+        p.mb-0 Contribuir al cumplimiento de los objetivos del SG-SST. 
+      .tarjeta.bg11.p-3.px-4(x="90.5%" y="71%" numero="4")
+        h4.mb-2 Prevención de riesgos
+        p.mb-0 Reportar condiciones y actos inseguros en el lugar de trabajo. 
+        
 
   
     Separador
@@ -567,19 +587,21 @@
 
     Separador
     #t_2_5.titulo-segundo.color-acento-botones(data-aos='fade-right')
-      h2 2.5. Sello Ambiental Colombiano (SAC)
+      h2 2.5. Sello Ambiental Colombiano (SAC)    
 
     .row.justify-content-center.align-items-end.mb-5
       .col-lg-8(data-aos="fade-right")
         p El Sello Ambiental es una certificación voluntaria creada por el Ministerio de Ambiente y Desarrollo Sostenible mediante la Resolución 1555 de 2005, que reconoce a los productos y servicios que cumplen altos estándares de desempeño ambiental. Este sello es otorgado por organismos certificadores acreditados y autorizados por la Autoridad Nacional de Licencias Ambientales (ANLA), y permite diferenciar en el mercado aquellos servicios que contribuyen a la protección del medio ambiente y al uso eficiente de los recursos naturales.
-        p En el sector turístico, el SAC se articula con las Normas Técnicas Sectoriales de Turismo Sostenible (NTS-TS), lo que permite a hoteles, agencias de viajes y otros prestadores demostrar su compromiso con la sostenibilidad ambiental, social y económica. 
-        .bg3.compl.p-4
-          .row.justify-content-center.align-items-center
-            .col-lg-3.col-md-4.mb-3.mb-lg-0
-              img(src='@/assets/curso/temas/t2/15.svg', alt='')
-            .col-lg-8.col-md-8
-              h5 El Sello Ambiental Colombiano (SAC)
+        p.mb-4 En el sector turístico, el SAC se articula con las Normas Técnicas Sectoriales de Turismo Sostenible (NTS-TS), lo que permite a hoteles, agencias de viajes y otros prestadores demostrar su compromiso con la sostenibilidad ambiental, social y económica. 
+        .subt2.mb-4(data-aos="fade-right")
+          img(src='@/assets/curso/temas/t2/subt2.svg', alt='')
+          h3.mb-2.pe-3.pe-lg-5 El Sello Ambiental Colombiano (SAC)
+        .bg3.p-3         
+          .row.justify-content-center.align-items-center            
+            .col-lg-8.col-md-8.mb-3.mb-lg-0
               p.mb-0 Es una etiqueta de tipo I que certifica el cumplimiento de criterios ambientales en productos y servicios. Tomado de Sello Ambiental Colombiano, por la Autoridad Nacional de Licencias Ambientales, 2020.
+            .col-lg-3.col-md-4
+              img(src='@/assets/curso/temas/t2/15.svg', alt='')
       .col-lg-4.d-none.d-lg-block(data-aos="fade-left")
         img(src='@/assets/curso/temas/t2/16.png', alt='')
 
@@ -622,9 +644,52 @@
 
     p Por su parte, la gestión ambiental en el turismo es un compromiso fundamental para garantizar el uso responsable de los recursos naturales y la conservación de los ecosistemas. En este sentido, el Sello Ambiental Colombiano (SAC) se convierte en una herramienta clave que orienta a las organizaciones hacia la implementación de buenas prácticas sostenibles. A continuación, se presenta una infografía que resume sus principales componentes y beneficios, destacando su importancia para fortalecer la competitividad, mejorar la imagen empresarial y promover un turismo responsable.
 
-    .bg2.p-4.p-lg-5
-      figure
-        img(src='@/assets/curso/temas/t2/infog2.svg', alt='')
+    ImagenInfografica.color-secundario
+      template(v-slot:imagen)
+        figure
+          img(src='@/assets/curso/temas/t2/infog4.svg', alt='')
+      .tarjeta.bg11.p-3.px-4(x="16.5%" y="25%" numero="1")
+        h4.mb-2 Gestión ambiental
+        ul.lista-ul.fa-lista.l-circle.mb-0
+          li.mb-0
+            i.fas.fa-circle
+            span.mb-0 Políticas ambientales.
+          li.mb-0
+            i.fas.fa-circle
+            span.mb-0 Impactos ambientales.
+      .tarjeta.bg11.p-3.px-4(x="83.5%" y="25%" numero="2")
+        h4.mb-2 Uso de recursos
+        ul.lista-ul.fa-lista.l-circle.mb-0
+          li.mb-0
+            i.fas.fa-circle
+            span.mb-0 Agua y energía eﬁciente.  
+          li.mb-0
+            i.fas.fa-circle
+            span.mb-0 Cumplimiento normativo.      
+      .tarjeta.bg11.p-3.px-4(x="8%" y="71%" numero="3")
+        h4.mb-2 Manejo de residuos
+        ul.lista-ul.fa-lista.l-circle.mb-0
+          li.mb-0
+            i.fas.fa-circle
+            span.mb-0 5R (rechazar, reducir, reutilizar, reparar y reciclar).
+          li.mb-0
+            i.fas.fa-circle
+            span.mb-0 Evaluación y auditoría continua.    
+      .tarjeta.bg11.p-3.px-4(x="90%" y="71%" numero="4")
+        h4.mb-2 Beneﬁcios
+        ul.lista-ul.fa-lista.l-circle.mb-0
+          li.mb-0
+            i.fas.fa-circle
+            span.mb-0 Mejora de imagen empresarial.
+          li.mb-0
+            i.fas.fa-circle
+            span.mb-0 Mayor competitividad.
+          li.mb-0
+            i.fas.fa-circle
+            span.mb-0 Ahorro de recursos.
+          li.mb-0
+            i.fas.fa-circle
+            span.mb-0 Conﬁanza del turista.
 
 
 </template>
