@@ -444,12 +444,12 @@
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/temas/t2/infog3.svg', alt='')
-      .tarjeta.bg11.p-3.px-4(x="16.5%" y="25%" numero="1")
+      .tarjeta.bg11.p-3.px-4(x="16%" y="25%" numero="1")
         h4.mb-2 Cuidado personal
         p Procurar el cuidado integral de la salud. 
         h5.mb-2 Capacitación
         p.mb-0 Participar en las capacitaciones programadas en SG-SST. 
-      .tarjeta.bg11.p-3.px-4(x="83.5%" y="25%" numero="2")
+      .tarjeta.bg11.p-3.px-4(x="84%" y="25%" numero="2")
         h4.mb-2 Información
         p Suministrar información veraz sobre su estado de salud.  
         h5.mb-2 Capacitación
@@ -459,7 +459,7 @@
         p Cumplir con las normas, procedimientos e instrucciones del SG-SST.
         h5.mb-2 Participación
         p.mb-0 Contribuir al cumplimiento de los objetivos del SG-SST. 
-      .tarjeta.bg11.p-3.px-4(x="90.5%" y="71%" numero="4")
+      .tarjeta.bg11.p-3.px-4(x="90.5%" y="71.5%" numero="4")
         h4.mb-2 Prevención de riesgos
         p.mb-0 Reportar condiciones y actos inseguros en el lugar de trabajo. 
         
