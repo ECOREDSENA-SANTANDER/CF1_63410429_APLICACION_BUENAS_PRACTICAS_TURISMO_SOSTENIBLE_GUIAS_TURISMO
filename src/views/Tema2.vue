@@ -444,12 +444,12 @@
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/temas/t2/infog3.svg', alt='')
-      .tarjeta.bg11.p-3.px-4(x="16%" y="25%" numero="1")
+      .tarjeta.bg11.p-3.px-4(x="16.5%" y="25%" numero="1")
         h4.mb-2 Cuidado personal
         p Procurar el cuidado integral de la salud. 
         h5.mb-2 Capacitación
         p.mb-0 Participar en las capacitaciones programadas en SG-SST. 
-      .tarjeta.bg11.p-3.px-4(x="84%" y="25%" numero="2")
+      .tarjeta.bg11.p-3.px-4(x="84.5%" y="25%" numero="2")
         h4.mb-2 Información
         p Suministrar información veraz sobre su estado de salud.  
         h5.mb-2 Capacitación
