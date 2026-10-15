@@ -289,10 +289,12 @@ figcaption, caption
   gap: 10px
   width: fit-content
   background-image: url('../assets/curso/temas/t2/bg-subt.svg')
-  background-size: 
+  background-size: contain
   background-repeat: no-repeat
-  background-position: bottom
+  background-position: 50% 100%
   padding: 5px 10px
+  @media (max-width: $bp-max-md)
+    background-size: cover
   img
     width: 50px
 .cuad-comp
